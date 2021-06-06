@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+#      authentication-database: dbAdmin
+      username: ubuntu
+      password: root
+      database: userDB
+      port: 27001
+      host: localhost
+  application:
+    name: user-service
+server:
+  port: 8080
+
+
+
